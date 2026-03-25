@@ -10,8 +10,8 @@ import ThemeToggler from './components/ThemeToggler'
 function Navigation(){
   const sections = [
     {id:"basic",lable:"Basic Props",icon:"📦"},
-    {id:"ref",lable:"ref Props",icon:"🔗"},
     {id:"children",lable:"children Props",icon:"👶🏻"},
+    {id:"ref",lable:"ref Props",icon:"🔗"},
     {id:"complex",lable:"complex Props",icon:"🧩"},
     {id:"theme toggler",lable:"theme toggler",icon:"🎨"},
     
@@ -54,11 +54,11 @@ function AppContent(){
           <div id="basic" className='scroll-mt-20'>
             <BasicProps/>
           </div>
-          <div id="refprops" className='scroll-mt-20'>
-            <RefProp/>
-          </div>
           <div id="childrenProps" className='scroll-mt-20'>
             <ChildrenProps/>
+          </div>
+          <div id="refprops" className='scroll-mt-20'>
+            <RefProp/>
           </div>
           <div id="complexProps" className='scroll-mt-20'>
             <Complexprops/>
